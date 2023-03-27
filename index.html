@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/qb" method="post">
+    <h2>Объем куба</h2>
+    <h4>дина ребра куба</h4>
+    <input type="text" name="num_1">
+    <input type="submit">
+    <h4>объем куба равен: {{ans}}</h4>
+</form>
+<form action="/bq" method="post">
+    <h2>Объем параллелепипеда</h2>
+    <h4>площадь основания</h4>
+    <input type="text" name="num_2">
+    <h4>высота</h4>
+    <input type="text" name="num_3">
+    <input type="submit">
+    <h4>объем параллелепипеда равен: {{ans1}}</h4>
+</form>
+<form action="/prizma" method="post">
+    <h2>Объем призмы</h2>
+    <h4>высота</h4>
+    <input type="text" name="num_7">
+    <h4>площадь основания</h4>
+    <input type="text" name="num_8">
+    <input type="submit">
+    <h4>объем призмы равен: {{ans3}}</h4>
+</form>
+<form action="/pyramid" method="post">
+    <h2>Объем пирамиды</h2>
+    <h4>высота</h4>
+    <input type="text" name="num_9">
+    <h4>площадь основания</h4>
+    <input type="text" name="num_10">
+    <h4>точность</h4>
+    <input type="text" name="num_11">
+    <input type="submit">
+    <h4>объем пирамиды: {{ans4}}</h4>
+</form>
+<form action="/cilindr" method="post">
+    <h2>Объем цилиндра</h2>
+    <h4>высота</h4>
+    <input type="text" name="num_12">
+    <h4>радиус</h4>
+    <input type="text" name="num_13">
+    <h4>точность</h4>
+    <input type="text" name="num_14">
+    <input type="submit">
+    <h4>объем пирамиды: {{ans5}}</h4>
+</form>
+</form>
+<form action="/shar" method="post">
+    <h2>Объем шара</h2>
+    <h4>радиус</h4>
+    <input type="text" name="num_15">
+    <h4>точность</h4>
+    <input type="text" name="num_16">
+    <input type="submit">
+    <h4>объем пирамиды: {{ans6}}</h4>
+</form>
+</body>
+</html>
